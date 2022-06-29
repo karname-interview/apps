@@ -7,6 +7,7 @@ spec:
   destination:
     namespace: ki-monitoring
     server: https://kubernetes.default.svc
+  project: default
   source:
     directory:
       jsonnet:
