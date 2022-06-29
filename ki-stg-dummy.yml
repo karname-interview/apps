@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ki-stg-dummy-api
+  namespace: argocd
+spec:
+  destination:
+    namespace: ki-stg-dummy
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: environments/stg
+    repoURL: https://cicd:9Lvb-yvsEvdCud3xm7eG@git.digikala.com/bigdata-platform/data-ops/cicd/cd/bigdata/karname/dummy-api.git
+    targetRevision: HEAD
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true
