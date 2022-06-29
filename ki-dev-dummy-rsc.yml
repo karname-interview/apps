@@ -1,20 +1,20 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: ki-dev-dummy-rsc
-  namespace: argocd
-spec:
-  destination:
-    namespace: ki-dev-dummy
-    server: https://kubernetes.default.svc
-  project: default
-  source:
-    path: environments/dev
-    repoURL: https://cicd:9Lvb-yvsEvdCud3xm7eG@git.digikala.com/bigdata-platform/data-ops/cicd/cd/bigdata/karname/dummy-rsc.git
-    targetRevision: HEAD
-  syncPolicy:
-    syncOptions:
-      - CreateNamespace=true
-    automated:
-      selfHeal: true
-      prune: true
+# apiVersion: argoproj.io/v1alpha1
+# kind: Application
+# metadata:
+#   name: ki-dev-dummy-rsc
+#   namespace: argocd
+# spec:
+#   destination:
+#     namespace: ki-dev-dummy
+#     server: https://kubernetes.default.svc
+#   project: default
+#   source:
+#     path: environments/dev
+#     repoURL: https://cicd:9Lvb-yvsEvdCud3xm7eG@git.digikala.com/bigdata-platform/data-ops/cicd/cd/bigdata/karname/dummy-rsc.git
+#     targetRevision: HEAD
+#   syncPolicy:
+#     syncOptions:
+#       - CreateNamespace=true
+#     automated:
+#       selfHeal: true
+#       prune: true
