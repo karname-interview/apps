@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: environments/prd
-    repoURL: https://cicd:9Lvb-yvsEvdCud3xm7eG@git.digikala.com/bigdata-platform/data-ops/cicd/cd/bigdata/karname/dummy-airflow-configs.git
+    repoURL: https://github.com/karname-interview/dummy-airflow-configs.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:

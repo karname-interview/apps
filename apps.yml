@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: ./
-    repoURL: https://cicd:9Lvb-yvsEvdCud3xm7eG@git.digikala.com/bigdata-platform/data-ops/cicd/cd/bigdata/karname/apps.git
+    repoURL: https://github.com/karname-interview/apps.git
     targetRevision: HEAD
     directory:
       recurse: true 

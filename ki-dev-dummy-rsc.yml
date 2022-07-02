@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: environments/dev
-    repoURL: https://cicd:9Lvb-yvsEvdCud3xm7eG@git.digikala.com/bigdata-platform/data-ops/cicd/cd/bigdata/karname/dummy-rsc.git
+    repoURL: https://github.com/karname-interview/dummy-rsc.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
