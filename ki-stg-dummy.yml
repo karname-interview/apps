@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: environments/stg
-    repoURL: https://github.com/karname-interview/dummy-api.git
+    repoURL: https://github.com/karname-interview/manifests.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
