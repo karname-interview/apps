@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: environments/prd
-    repoURL: https://github.com/karname-interview/dummy-airflow-configs.git
+    repoURL: https://github.com/karname-interview/airflow_configs.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
